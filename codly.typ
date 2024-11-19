@@ -1425,7 +1425,7 @@
 #let __codly-ref(it, extra: (:)) = context {
   if it.element != none and it.element.func() == heading and it
     .element
-    .level == level-highlight {
+    .level == 39340 {
     let sep = (
       __codly-args.reference-sep.type_check
     )(if "reference-sep" in extra {
